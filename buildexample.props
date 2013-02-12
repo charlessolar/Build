@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.21006.1</_ProjectFileVersion>
+    <OutDir>$(SolutionDir)bin\Windows-$(PlatformName)\$(Configuration)\examples\</OutDir>
+    <IntDir>build\Windows-$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <BuildLogFile>$(OutDir)\$(MSBuildProjectName).log</BuildLogFile>
+  </PropertyGroup>
+</Project>
